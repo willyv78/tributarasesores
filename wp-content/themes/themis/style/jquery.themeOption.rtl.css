@@ -1,0 +1,494 @@
+/******************************************************************************/
+/*	Base																	  */
+/******************************************************************************/
+
+body
+{
+	direction:rtl;
+	unicode-bidi:embed;
+} 
+
+.to *
+{
+    text-align:right;
+}
+
+.to .to-float-left
+{
+	float:right !important;
+}
+
+.to .to-float-right
+{
+	float:left !important;
+}
+
+.to .to-margin-right-10	
+{ 
+	margin-left:10px !important;
+	margin-right:0px !important;
+}
+
+.wp-dialog .ui-dialog-titlebar-close
+{
+	left:6px;
+	right:auto;
+}
+
+/******************************************************************************/
+/*	Panel dimensions														  */
+/******************************************************************************/
+
+.to .to-header .to-header-left,
+.to .to-footer .to-footer-left,
+.to .to-content .to-content-left
+{
+	float:right;
+}
+
+.to .to-header .to-header-right,
+.to .to-footer .to-footer-right,
+.to .to-content .to-content-right
+{
+	float:left;
+}
+
+/******************************************************************************/
+/*	Panel																	  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Panel / Header												  		  */
+	/**************************************************************************/
+	
+		/**********************************************************************/
+		/*	Panel / Header / Right											  */
+		/**********************************************************************/
+
+			.to .to-header .to-header-right>div
+			{
+				float:right;
+			}
+			
+			.to .to-header .to-header-right h6
+			{
+				float:right;
+				margin-left:10px;
+			}
+	
+			.to .to-header .to-header-right a.to-header-right-logo
+			{
+				float:left;
+				display:block;
+				margin:20px 0px 0px 20px;				
+				background-position:0px -260px;
+			}
+			
+	/**************************************************************************/
+	/*	Panel / Content														  */
+	/**************************************************************************/
+
+		/**********************************************************************/
+		/*	Panel / Content / Left										      */
+		/**********************************************************************/
+
+				.to .to-content .to-content-left #to_menu li a
+				{
+					padding:22px 15px 0px 20px;
+				}
+				
+				.to .to-content .to-content-left #to_menu li a.to-menu-select>span,
+				.to .to-content .to-content-left #to_menu li a.to-menu-error>span
+				{
+					background-position:100% -32px;
+				}
+				
+					.to .to-content .to-content-left #to_menu li a>span
+					{
+						float:right;
+						margin-left:10px;
+						margin-right:0px;
+					}
+				
+						.to .to-content .to-content-left #to_menu li ul li a
+						{
+							padding:12px 15px 0px 20px;			
+						}
+					
+				.to .to-content .to-content-left #to_menu li a.to-menu-font>span								{ background-position:-32px 0px;	}
+				.to .to-content .to-content-left #to_menu li a.to-menu-font:hover>span							{ background-position:-32px -16px;	}
+				.to .to-content .to-content-left #to_menu li a.to-menu-font.to-menu-select>span,
+				.to .to-content .to-content-left #to_menu li a.to-menu-font.to-menu-error>span					{ background-position:-32px -32px;	}
+				
+				.to .to-content .to-content-left #to_menu li a.to-menu-plugin>span								{ background-position:-48px 0px;	}
+				.to .to-content .to-content-left #to_menu li a.to-menu-plugin:hover>span						{ background-position:-48px -16px;	}
+				.to .to-content .to-content-left #to_menu li a.to-menu-plugin.to-menu-select>span,
+				.to .to-content .to-content-left #to_menu li a.to-menu-plugin.to-menu-error>span				{ background-position:-48px -32px;	}
+				
+				.to .to-content .to-content-left #to_menu li a.to-menu-social>span								{ background-position:-16px 0px;	}
+				.to .to-content .to-content-left #to_menu li a.to-menu-social:hover>span						{ background-position:-16px -16px;	}
+				.to .to-content .to-content-left #to_menu li a.to-menu-social.to-menu-select>span,
+				.to .to-content .to-content-left #to_menu li a.to-menu-social.to-menu-error>span				{ background-position:-16px -32px;	}	
+				
+				.to .to-content .to-content-left #to_menu li a.to-menu-text>span								{ background-position:-80px 0px;	}
+				.to .to-content .to-content-left #to_menu li a.to-menu-text:hover>span							{ background-position:-80px -16px;	}
+				.to .to-content .to-content-left #to_menu li a.to-menu-text.to-menu-select>span,				
+				.to .to-content .to-content-left #to_menu li a.to-menu-text.to-menu-error>span					{ background-position:-80px -32px;	}		
+				
+				.to .to-content .to-content-left #to_menu li a.to-menu-bulk>span								{ background-position:-112px 0px;	}
+				.to .to-content .to-content-left #to_menu li a.to-menu-bulk:hover>span							{ background-position:-112px -16px; }
+				.to .to-content .to-content-left #to_menu li a.to-menu-bulk.to-menu-select>span,
+				.to .to-content .to-content-left #to_menu li a.to-menu-bulk.to-menu-error>span					{ background-position:-112px -32px; }		
+				
+				.to .to-content .to-content-left #to_menu li a.to-menu-manage-option>span						{ background-position:-96px 0px;	}
+				.to .to-content .to-content-left #to_menu li a.to-menu-manage-option:hover>span					{ background-position:-96px -16px;	}
+				.to .to-content .to-content-left #to_menu li a.to-menu-manage-option.to-menu-select>span,	
+				.to .to-content .to-content-left #to_menu li a.to-menu-manage-option.to-menu-error>span			{ background-position:-96px -32px;	}
+				
+				.to .to-content .to-content-left #to_menu li a.to-menu-css>span									{ background-position:-176px 0px;	}
+				.to .to-content .to-content-left #to_menu li a.to-menu-css:hover>span							{ background-position:-176px -16px; }
+				.to .to-content .to-content-left #to_menu li a.to-menu-css.to-menu-select>span,
+				.to .to-content .to-content-left #to_menu li a.to-menu-css.to-menu-error>span					{ background-position:-176px -32px; }
+					
+	/**************************************************************************/
+	/*	Panel / Footer													      */
+	/**************************************************************************/
+	
+		/**********************************************************************/
+		/*	Panel / Footer / Left									   		  */
+		/**********************************************************************/
+		
+			/******************************************************************/
+			/*	Panel / Footer / Social List								  */
+			/******************************************************************/
+			
+			.to ul.to-social-list
+			{
+				margin-left:0px;
+				margin-right:20px;
+			}
+
+				.to ul.to-social-list li
+				{
+					float:right;
+				}
+
+					.to ul.to-social-list li a.to-social-list-tumblr				{ background-position:-150px -200px;	}
+					.to ul.to-social-list li a.to-social-list-flickr				{ background-position:-60px -200px;		}
+					.to ul.to-social-list li a.to-social-list-envato				{ background-position:-90px -200px;		}
+					.to ul.to-social-list li a.to-social-list-twitter				{ background-position:-30px -200px;		}
+					.to ul.to-social-list li a.to-social-list-facebook				{ background-position:-0px -200px;		}
+					.to ul.to-social-list li a.to-social-list-deviantart			{ background-position:-180px -200px;	}
+
+					.to ul.to-social-list li a.to-social-list-tumblr:hover			{ background-position:-150px -230px;	}
+					.to ul.to-social-list li a.to-social-list-flickr:hover			{ background-position:-60px -230px;		}
+					.to ul.to-social-list li a.to-social-list-envato:hover			{ background-position:-90px -230px;		}
+					.to ul.to-social-list li a.to-social-list-twitter:hover			{ background-position:-30px -230px;		}
+					.to ul.to-social-list li a.to-social-list-facebook:hover		{ background-position:-0px -230px;		}
+					.to ul.to-social-list li a.to-social-list-deviantart:hover		{ background-position:-180px -230px;	}
+				
+	/**************************************************************************/
+	/*	Panel / Form Field List												  */
+	/**************************************************************************/
+		
+			.to .to-form-field-list>li>h5
+			{
+				float:right;
+			}
+			
+	/**************************************************************************/
+	/* Panel / Form Element											    	  */
+	/**************************************************************************/	
+	
+	.to button,
+	.to input[type="file"], 
+	.to input[type="reset"],
+	.to input[type="button"],
+	.to input[type="submit"]
+	{
+		text-align:center;
+	}
+	
+	.to input[type="submit"].to-button,
+	.to input[type="button"].to-button
+	{
+		float:left;
+		border:none;
+		margin:30px 0px 0px 30px;
+	}
+
+	.to input[type="button"].to-button-add,
+	.to input[type="button"].to-button-browse,
+	.to input[type="button"].to-button-remove
+	{
+		float:right;
+		margin:1px 2px 0px 0px;
+		padding:9px 10px 10px 10px;
+	}
+	
+	/**************************************************************************/
+	/* Panel / Form Element													  */
+	/**************************************************************************/
+	
+		/**********************************************************************/
+		/* Panel / Form Element / Buttonset									  */
+		/**********************************************************************/
+
+		.to input[type="radio"].ui-helper-hidden-accessible,
+		.to input[type="checkbox"].ui-helper-hidden-accessible
+		{
+			top:0px;
+			right:0px;
+			left:auto;
+		}
+
+			.to .ui-buttonset .ui-button
+			{
+				float:right;
+				margin-left:-1px;
+				margin-right:0px;
+			}
+			
+		/**********************************************************************/
+		/* Panel / Form Element / Dropkick									  */
+		/**********************************************************************/
+		
+		.to .dk_toggle 
+		{
+			padding:7px 10px 7px 45px;
+		}
+
+		.to .dk_toggle:after 
+		{
+			left:10px;
+			right:auto;
+			border-left:5px solid transparent;
+			border-right:5px solid transparent;
+		}
+
+		.to .dk_open .dk_toggle 
+		{
+			border-radius:5px 0 0 5px;
+			-moz-border-radius:5px 0 0 5px;
+			-webkit-border-radius:5px 0 0 5px; 
+		}
+
+		.to .dk_options 
+		{
+			border-radius:0 5px 5px 0;
+			-moz-border-radius:0 5px 5px 0;
+			-webkit-border-radius:0 5px 5px 0; 
+		}
+
+		.to .dk_options_inner 
+		{
+			border-radius:0 5px 5px 0;
+			-moz-border-radius:0 5px 5px 0;
+			-webkit-border-radius:0 5px 5px 0;
+		}
+
+		.to .dk_container
+		{
+			float:right; 
+		}
+
+		.to .dk_options 
+		{
+			left:0px;
+			right:auto; 
+		}
+
+		.to .dk_mobile select 
+		{
+			left:auto;
+			right:0px;
+		}		
+
+		/**********************************************************************/
+		/*	Panel / Form Element / Slider									  */
+		/**********************************************************************/	
+		
+		.to .ui-slider
+		{
+			float:right;
+			width:308px;
+			margin:13px 10px 10px 10px;
+		}
+
+		.to input.to-slider-range
+		{
+			float:right;
+			margin-left:0px;
+			margin-right:10px;
+		}
+		
+		/**********************************************************************/
+		/*	Panel / Form Element / Color Sample								  */
+		/**********************************************************************/
+
+		.to .to-color-picker-sample
+		{
+			float:right;
+			margin-left:1px;
+			margin-right:0px;
+		}
+
+		/**********************************************************************/
+		/*	Panel / Form Element / Autocomplete								  */
+		/**********************************************************************/
+	
+			.to input[type="text"].ui-autocomplete-loading
+			{
+				background-position-x:1%;
+				background-image:url('../media/image/admin/preloader_autocomplete.gif');
+			}
+			
+		/**********************************************************************/
+		/*	Panel / Form Element / Infield label							  */
+		/**********************************************************************/	
+		
+		.to label.to-label-1
+		{
+			float:right;
+			margin-right:20px;
+			margin-left:0px;
+			border-width:0px 1px 0px 0px;
+		}
+		
+	/**************************************************************************/
+	/*  Panel / Qtip														  */
+	/**************************************************************************/
+
+	.ui-tooltip-default
+	{
+		margin-right:5px;
+		margin-left:0px;
+	}
+
+	/**************************************************************************/
+	/*	Panel / Notice														  */
+	/**************************************************************************/
+	
+		.to .to-notice h4,
+		.to .to-notice h6
+		{
+			margin-right:75px;
+			margin-left:0px;
+		}
+		
+			.to .to-notice span
+			{
+				float:right;	
+			}
+		
+			.to .to-notice.to-notice-error span
+			{
+				background-position:-92px -260px;				
+			}
+			
+			.to .to-notice.to-notice-success span
+			{
+				background-position:-142px -260px;				
+			}
+
+/******************************************************************************/
+/* Colorpicker																  */
+/******************************************************************************/
+	
+.colorpicker
+{ 
+    background:url('colorpicker/colorpicker_background_rtl.png'); 
+}
+
+.colorpicker_color 
+{
+	right:14px;
+	left:auto;
+}
+
+.colorpicker_hue 
+{
+	right:171px;
+	left:auto;
+}
+.colorpicker_hue div 
+{
+	background:url(colorpicker/colorpicker_indic.gif) right top;
+	right:0px;
+	left:auto;
+}
+.colorpicker_new_color 
+{
+	left:auto;
+	right:213px;
+}
+.colorpicker_current_color 
+{
+	left:auto;
+	right:283px;
+}
+.colorpicker input 
+{
+	right:auto;
+	left:11px;
+	text-align:right;
+}
+.colorpicker_hex 
+{
+	right:212px;
+	left:auto;
+}
+
+.colorpicker_field span
+{
+	right:0;
+	left:auto;
+}
+
+.colorpicker_rgb_r 
+{
+	right:212px;
+	left:auto;
+}
+
+.colorpicker_rgb_g 
+{
+	right:212px;
+	left:auto;
+}
+
+.colorpicker_rgb_b 
+{
+	right:212px;
+	left:auto;
+}
+
+.colorpicker_hsb_h 
+{
+	right:282px;
+	left:auto;
+}
+
+.colorpicker_hsb_s 
+{
+	right:282px;
+	left:auto;
+}
+
+.colorpicker_hsb_b 
+{
+	right:282px;
+	left:auto;
+}
+
+.colorpicker_submit 
+{
+	right:322px;
+	left:auto;
+}
+
+.to .to-color-picker-sample
+{
+	margin-left:2px;
+	margin-right:1px;
+}

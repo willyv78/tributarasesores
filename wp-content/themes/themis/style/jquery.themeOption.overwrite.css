@@ -1,0 +1,69 @@
+/******************************************************************************/
+/*	Panel																	  */
+/******************************************************************************/
+
+.to-to
+{
+	display:none;
+	width:1080px;
+}
+
+	/**************************************************************************/
+	/*	Panel / Content													      */
+	/**************************************************************************/
+
+	.to.to-to .to-content,
+	.to.to-to .to-content .to-content-left,
+	.to.to-to .to-content .to-content-right
+	{
+		min-height:1000px;
+	}
+	
+		/**********************************************************************/
+		/*	Panel / Content / Left										      */
+		/**********************************************************************/
+	
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-font>span							{ background-position:-32px 0px;	}
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-font:hover>span					{ background-position:-32px -16px;	}
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-font.to-menu-select>span,
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-font.to-menu-error>span			{ background-position:-32px -32px;	}
+				
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-plugin>span						{ background-position:-48px 0px;	}
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-plugin:hover>span					{ background-position:-48px -16px;	}
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-plugin.to-menu-select>span,
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-plugin.to-menu-error>span			{ background-position:-48px -32px;	}
+				
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-social>span						{ background-position:-16px 0px;	}
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-social:hover>span					{ background-position:-16px -16px;	}
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-social.to-menu-select>span,
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-social.to-menu-error>span			{ background-position:-16px -32px;	}	
+				
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-text>span							{ background-position:-80px 0px;	}
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-text:hover>span					{ background-position:-80px -16px;	}
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-text.to-menu-select>span,				
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-text.to-menu-error>span			{ background-position:-80px -32px;	}		
+				
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-bulk>span							{ background-position:-112px 0px;	}
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-bulk:hover>span					{ background-position:-112px -16px; }
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-bulk.to-menu-select>span,
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-bulk.to-menu-error>span			{ background-position:-112px -32px; }		
+				
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-manage-option>span					{ background-position:-96px 0px;	}
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-manage-option:hover>span			{ background-position:-96px -16px;	}
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-manage-option.to-menu-select>span,	
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-manage-option.to-menu-error>span	{ background-position:-96px -32px;	}
+				
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-css>span							{ background-position:-176px 0px;	}
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-css:hover>span						{ background-position:-176px -16px; }
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-css.to-menu-select>span,
+				.to.to-to .to-content .to-content-left #to_menu li a.to-menu-css.to-menu-error>span				{ background-position:-176px -32px; }
+
+/******************************************************************************/
+/*	Panel / CSS editor													      */
+/******************************************************************************/
+
+.to.to-to .css-editor
+{
+	width:100%;
+	height:400px;
+}

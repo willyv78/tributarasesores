@@ -1,0 +1,150 @@
+
+/******************************************************************************/
+/*	Base																	  */
+/******************************************************************************/
+
+body
+{
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	color:#444444;
+	font-size:13px;
+	font-family:Tahoma;
+}
+
+/******************************************************************************/
+/*	Color picker															  */
+/******************************************************************************/
+	
+.to .to-color-picker-sample
+{
+	margin-top:3px;
+	margin-right:2px;
+	margin-left:1px;
+}
+
+/******************************************************************************/
+/*	Form Field List															  */
+/******************************************************************************/
+	
+.to ul.to-form-field-list
+{
+	overflow:hidden;
+}
+
+/******************************************************************************/
+/*	Dropkick																  */
+/******************************************************************************/
+
+.to .dk_toggle,
+.to .dk_container
+{
+	width:400px !important;
+}
+
+	.to .dk_container .dk_options_inner
+	{
+		margin:0px;
+		padding:0px;
+		list-style-type:none;
+	}
+			
+	.to .dk_options a:hover,.dk_option_current a 
+	{
+		background-color:#0074A2;
+	}
+	
+/******************************************************************************/
+/*	Shortcode Manager														  */
+/******************************************************************************/
+
+.shortcode-manager
+{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+	.shortcode-manager .shortcode-manager-header,
+	.shortcode-manager .shortcode-manager-footer
+	{
+		width:100%;
+		position:fixed;
+		background:#F0F0F0;
+		padding:0px 0px 30px 0px;
+	}
+	
+	.shortcode-manager .shortcode-manager-footer
+	{
+		padding:20px 0px 20px 0px;
+	}
+
+	/**************************************************************************/
+	/*	Shortcode Manager / Header											  */
+	/**************************************************************************/
+
+	.shortcode-manager .shortcode-manager-header
+	{
+		top:0px;
+		z-index:10;
+		text-align:center;
+		border-bottom:solid 1px #E4E4E4;
+	}
+	
+		.shortcode-manager .shortcode-manager-header select
+		{
+
+		}
+
+	/**************************************************************************/
+	/*	Shortcode Manager / Content											  */
+	/**************************************************************************/
+	
+	.shortcode-manager .shortcode-manager-content
+	{
+		overflow-y:auto;
+		background:#FFFFFF;
+	}
+	
+		.shortcode-manager .shortcode-manager-content>div
+		{
+			padding:20px;
+		}
+	
+			.shortcode-manager .shortcode-manager-content>div>div.shortcode-panel
+			{
+				display:none;
+			}
+
+			.shortcode-manager .shortcode-manager-content>div>div.shortcode-panel.shortcode-panel-open
+			{
+				display:block;
+			}
+			
+				.shortcode-manager .shortcode-manager-content>div>div.shortcode-panel p.shortcode-panel-description
+				{
+					padding:10px;
+					margin-top:-22px;
+					margin-bottom:22px;
+					border:solid 1px #E4E4E4;
+					background-color:#F0F0F0;
+				}
+		
+	/**************************************************************************/
+	/*	Shortcode Manager / Footer											  */
+	/**************************************************************************/
+	
+	.shortcode-manager .shortcode-manager-footer
+	{
+		z-index:9;
+		bottom:0px;	
+		border-top:solid 1px #E4E4E4;
+	}
+	
+		.shortcode-manager .shortcode-manager-footer input[type="button"].to-button 
+		{
+			margin:0px;
+			float:right;
+			margin-right:20px;
+		}

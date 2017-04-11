@@ -1,0 +1,1420 @@
+/******************************************************************************/
+/*	Base styles					                                              */
+/******************************************************************************/
+
+body
+{
+	direction:rtl;
+	unicode-bidi:embed;
+}
+
+.clear-left 
+{ 
+	clear:right; 
+}
+
+.float-left			{ float:right !important;				}
+
+.float-right		{ float:left !important;				}
+
+.margin-left-0		{ margin-right:0px !important;		    }
+
+/******************************************************************************/
+/*	Layouts																	  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Layout 100 (in percentage)											  */
+	/**************************************************************************/
+	
+	.layout-p-100>.column-right
+	{ 
+		width:100%;
+		clear:both;
+		float:left; 
+	}
+
+	/**************************************************************************/
+	/*	Layout 50x50 (in percentage)										  */
+	/**************************************************************************/
+	
+	.layout-p-50x50>.column-left 
+	{ 
+		clear: none;
+	}
+
+	.layout-p-50x50>.column-right 
+	{ 
+		clear:both;
+	}
+
+	/**************************************************************************/
+	/*	Layout 33x33x33 (in percentage)										  */
+	/**************************************************************************/
+	
+	.layout-p-33x33x33>.column-left 
+	{ 
+		clear:none;
+		margin: 0px;
+	}
+		
+	.layout-p-33x33x33>.column-right,
+	.layout-p-33x33x33>.column-center
+	{
+		float:right; 
+		margin-left:3.0303%;
+		margin-right:0;
+	}
+	
+	.layout-p-33x33x33>.column-right
+	{ 
+		clear:both;
+	}
+	 
+	/**************************************************************************/
+	/*	Layout 25x25x25x25 (in percentage)									  */
+	/**************************************************************************/
+	
+	.layout-p-25x25x25x25>.column-left 
+	{ 
+		clear:none;
+		margin:0px;
+	}
+	
+	.layout-p-25x25x25x25>.column-right,
+	.layout-p-25x25x25x25>.column-center-left,
+	.layout-p-25x25x25x25>.column-center-right
+	{
+		float:right; 
+		margin-right:0;
+		margin-left:3.0303%;
+	}
+
+	.layout-p-25x25x25x25>.column-right 
+	{  
+		clear:both;
+	} 
+	
+	/**************************************************************************/
+	/*	Layout 20x20x20x20x20 (in percentage)								  */
+	/**************************************************************************/
+	
+	.layout-p-20x20x20x20x20>.column-left 
+	{ 
+		clear:none;
+		margin:0;
+	}
+	
+	.layout-p-20x20x20x20x20>.column-right,
+	.layout-p-20x20x20x20x20>.column-center-left,
+	.layout-p-20x20x20x20x20>.column-center,
+	.layout-p-20x20x20x20x20>.column-center-right
+	{
+		float:right; 
+		margin-left:1.0101%;
+		margin-right:0;
+	}
+
+	.layout-p-20x20x20x20x20>.column-right 
+	{   
+		clear:both;
+	} 
+		
+	/**************************************************************************/
+	/*	Layout 66x33 (in percentage)										  */
+	/**************************************************************************/
+	
+	.layout-p-66x33>.column-left 
+	{
+		clear:none;
+	}
+	
+	.layout-p-66x33>.column-right 
+	{
+		clear:both;
+	} 
+	
+	.layout-p-66x33>.column-right 
+	{ 
+		width:65.6565%;
+	}
+	.layout-p-66x33>.column-left 
+	{ 
+		width:31.3131%;
+	}
+	
+	/**************************************************************************/
+	/*	Layout 33x66 (in percentage)										  */
+	/**************************************************************************/
+	
+	.layout-p-33x66>.column-left 
+	{ 	
+		clear:none;
+	}
+
+	.layout-p-33x66>.column-right 
+	{ 
+		clear:both;
+	}
+	
+	.layout-p-33x66>.column-right
+	{ 
+		width:31.3131313131%;
+	}
+
+	.layout-p-33x66>.column-left 
+	{ 
+		width:65.6565%;
+	}
+	
+/******************************************************************************/
+/*	List																	  */
+/******************************************************************************/
+	
+	ul.list li
+	{
+		float:right;
+	}
+	
+		ul.list li>div
+		{
+			float:right;
+			padding-left:0px;
+			padding-right:20px;
+			background-position:center right;
+		}
+		
+			ul.list.list-bullet-1 li>div	{ background-image:url('media/image/public/list_icon/icon_bullet_01_rtl.png'); }
+			ul.list.list-bullet-2 li>div	{ background-image:url('media/image/public/list_icon/icon_bullet_02_rtl.png'); }
+			ul.list.list-bullet-3 li>div	{ background-image:url('media/image/public/list_icon/icon_bullet_03_rtl.png'); }
+			ul.list.list-bullet-4 li>div	{ background-image:url('media/image/public/list_icon/icon_bullet_04_rtl.png'); }
+			ul.list.list-bullet-5 li>div	{ background-image:url('media/image/public/list_icon/icon_bullet_05_rtl.png'); }
+			ul.list.list-bullet-6 li>div	{ background-image:url('media/image/public/list_icon/icon_bullet_06_rtl.png'); }
+			ul.list.list-bullet-7 li>div 	{ background-image:url('media/image/public/list_icon/icon_bullet_07_rtl.png'); }
+			ul.list.list-bullet-8 li>div	{ background-image:url('media/image/public/list_icon/icon_bullet_08_rtl.png'); }
+			ul.list.list-bullet-9 li>div	{ background-image:url('media/image/public/list_icon/icon_bullet_09_rtl.png'); }
+			ul.list.list-bullet-10 li>div	{ background-image:url('media/image/public/list_icon/icon_bullet_10_rtl.png'); }
+			
+/******************************************************************************/
+/*	Icons																	  */
+/******************************************************************************/
+
+.icon-4
+{
+	float:right;
+	background-position:right center;
+}
+
+/******************************************************************************/
+/*	Header																	  */
+/******************************************************************************/
+
+	div.header div.header-logo,
+	div.header div.header-cite
+	{
+		float:right;
+	}
+
+	div.header div.header-logo
+	{
+		padding-left:20px; 
+		padding-right:0px;
+	}
+
+	div.header div.header-cite
+	{
+		margin-right:20px;
+		margin-left:0px;
+		padding:20px 40px 20px 0px;
+		border-width:0px 1px 0px 0px;
+	}
+
+	div.header div.header-phone
+	{
+		float:left;
+		padding-right:60px;
+		padding-left:0px;
+		background-position:center right;       
+	}
+
+/******************************************************************************/
+/*	Menu box																  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Menu box / Menu														  */
+	/**************************************************************************/
+
+				/**************************************************************/
+				/*	Menu box / Overlay										  */
+				/**************************************************************/	
+				
+				div.menu-box ul.menu-box li a span.menu-box-overlay,
+				div.menu-box ul.menu-box li a span.menu-box-overlay span
+				{
+					background-position:100% 0px;
+				}
+				
+				div.menu-box ul.menu-box li a span.menu-box-overlay span
+				{ 
+					left:0px;
+				}
+				
+				/**************************************************************/
+				/*	Menu box / Icon											  */
+				/**************************************************************/
+				
+				div.menu-box ul.menu-box li a span.menu-box-icon
+				{
+					left:0;
+					right:50%;
+					margin-left:0px;
+					margin-right:-25px;
+				}
+				
+				div.menu-box ul.menu-box li a img.menu-box-image 
+				{
+					left:0;
+				}
+
+				.menu-box-icon img 
+				{
+					right:0;
+				}
+				.menu-box-widget-icon img 
+				{
+					right:0 !important;
+					left:auto !important;
+				}
+				
+	/**************************************************************************/
+	/*	Navigation															  */
+	/**************************************************************************/
+		
+	.navigation-prev
+	{ 
+		right:auto;
+	}
+	
+	.navigation-up,
+	.navigation-down
+	{
+		left:0px;
+		right:auto;
+	}
+	
+/******************************************************************************/
+/*	Testimonial list														  */
+/******************************************************************************/
+	
+		/**********************************************************************/
+		/*	Testimonial list / Cite											  */
+		/**********************************************************************/
+	
+		ul.testimonial-list li div.testimonial-list-cite-open
+		{
+			background-position:center right;
+		}
+		
+		ul.testimonial-list li div.testimonial-list-cite-close
+		{
+			background-position:center left;
+		}
+		
+		/**********************************************************************/
+		/*	Testimonial list / Person										  */
+		/*	Testimonial list / Company										  */
+		/**********************************************************************/		
+		
+		ul.testimonial-list li .testimonial-list-person,
+		ul.testimonial-list li .testimonial-list-company
+		{
+			text-align:right;
+		}
+		
+/******************************************************************************/
+/*	Pagination																  */
+/******************************************************************************/
+
+div.blog-pagination,
+div.comment-pagination,
+div.testimonial-carousel-pagination
+{
+	float:left;
+}
+
+	div.blog-pagination a,
+	div.blog-pagination span,
+	div.comment-pagination a,
+	div.comment-pagination span,
+	div.testimonial-carousel-pagination a
+	{
+		margin-left:0px;
+		margin-right:5px;
+	}
+	
+	div.blog-pagination a,
+	div.blog-pagination span,
+	div.comment-pagination a,
+	div.comment-pagination span
+	{
+		margin-right:0px;
+	}
+
+/******************************************************************************/
+/*  Social list																  */
+/******************************************************************************/
+
+	ul.social-list li
+	{
+		float:right;
+		margin-left:2px;
+		margin-right:0px;
+	}
+	
+		ul.social-list li a
+		{
+			background-position:100% 0px;
+		}
+		
+		ul.social-list li a:hover
+		{
+			background-position:100% -29px;
+		}
+		
+/******************************************************************************/
+/*  Company info															  */
+/******************************************************************************/
+	
+	ul.company-info li
+	{
+		padding:10px 30px 10px 0px;
+		background-position:100% 10px;
+	}
+	
+	ul.company-info li:first-child
+	{
+		background-position:100% 0px;
+	}
+	
+/******************************************************************************/
+/*  Form																	  */
+/******************************************************************************/
+
+		form ul.form-line li
+		{
+			float:right;
+		}
+		
+		form ul.form-line li.form-line-33x33x33
+		{
+			margin-right:20px;
+			margin-left:0px;
+		}
+		
+/******************************************************************************/
+/*  Contact form															  */
+/******************************************************************************/
+
+	.contact-form.responsive ul.form-line li
+	{
+		margin-right:0px;
+	}
+
+/******************************************************************************/
+/* Search form																  */
+/******************************************************************************/
+
+	form.search-form div.search-form-text
+	{
+		right:0px;
+		left:100px;
+	}
+
+	form.search-form input[type="text"]
+	{
+		background-position:100% 0px;
+	}
+	
+	form.search-form input[type="text"]
+	{
+		padding-right:30px;
+		padding-left:0px;
+	}
+	
+	form.search-form label
+	{
+		padding-right:40px;
+		padding-left:0px;
+	}
+	
+	form.search-form input[type="submit"]
+	{
+		left:0;
+		right:auto;
+	}
+		
+/******************************************************************************/
+/*  Feature list															  */
+/******************************************************************************/
+
+	ul.feature-list-2 li
+	{
+		float:right;
+	}
+		
+		ul.feature-list-1 p,
+		ul.feature-list-1 h4
+		{
+			padding-right:90px;
+			padding-left:0px;
+		}
+		
+/******************************************************************************/
+/*	Preloader																  */
+/******************************************************************************/
+	
+.preloader
+{
+	background-position:center center;
+}
+	
+/******************************************************************************/
+/*  Fancybox																  */
+/******************************************************************************/
+	
+#fancybox-title-inside
+{
+	text-align:right;
+}
+	
+/******************************************************************************/
+/*	Gallery																	  */
+/*	Single image															  */
+/******************************************************************************/
+ 
+		/**********************************************************************/
+		/*	Gallery	/ Layout												  */
+		/**********************************************************************/
+			
+			ul.gallery-item-list.layout-p-50x50 li>div, 
+			ul.gallery-item-list.layout-p-33x33x33 li>div, 
+			ul.gallery-item-list.layout-p-25x25x25x25 li>div, 
+			ul.gallery-item-list.layout-p-20x20x20x20x20 li>div
+			{
+				margin-right:0px !important;
+				margin-left:30px !important;	
+			} 
+
+			/******************************************************************/
+			/*	Gallery	/ Bottom box										  */
+			/******************************************************************/
+		
+			.single-image div.gallery-bottom-box>div.default,
+			.single-image div.gallery-bottom-box>div.hover,
+			ul.gallery-item-list li div.gallery-bottom-box>div.default,
+			ul.gallery-item-list li div.gallery-bottom-box>div.hover
+			{
+				right:0;
+				left:auto;
+			}
+				
+			/******************************************************************/
+			/*	Gallery	/ Right box											  */
+			/******************************************************************/
+				
+			ul.gallery-item-list li.layout-p-66x33
+			{
+
+			}
+			
+				ul.gallery-item-list li.layout-p-66x33 div.column-left h2
+				{
+					margin-top:0px;
+					margin-bottom:20px;
+				}			
+				 
+/******************************************************************************/
+/*  Gallery filter menu														  */
+/******************************************************************************/
+	
+	ul.gallery-filter-menu li
+	{
+		float:right;
+		margin-left:5px;
+		margin-right:0px;
+	}
+
+/******************************************************************************/
+/*	Team																	  */
+/******************************************************************************/
+
+	ul.team-list li 
+	{
+		margin-left:30px !important;
+		margin-right:0px !important;
+	}
+
+				div.team ul.team-list li div.team-list-link a
+				{
+					padding-left:15px;
+					padding-right:0px;
+					background-repeat:no-repeat;
+					background-position:left center;
+					background-image:url('media/image/public/list_icon/icon_bullet_10_rtl.png');
+				}
+				
+ 	div.team .navigation-prev,
+	div.team .navigation-next
+	{
+		left:0px;
+		right:auto;
+	}
+	
+	div.team .navigation-prev
+	{
+		right:auto;
+		left:0px;
+	}
+	
+	div.team .navigation-next
+	{	
+		right:auto;
+		left:25px;
+	}
+	
+	.paragraph 
+	{
+		text-align:right;
+	}
+	
+	ul.layout-p-20x20x20x20x20.team-list li
+	{
+		margin-left:10px !important;
+		margin-right:0px !important;
+	}
+	
+/******************************************************************************/
+/*	Nivo slider					                                              */
+/******************************************************************************/
+
+.nivo-slider-wrapper
+{
+	background-position:center center;
+}
+
+/******************************************************************************/
+/*	Isotope			                                              */
+/******************************************************************************/
+
+.isotope .isotope-item 
+{
+	transition-property:right,top,transform,opacity;
+	-o-transition-property:right,top,-o-transform,opacity;
+	-ms-transition-property:right,top,-ms-transform,opacity;
+	-moz-transition-property:right,top,-moz-transform,opacity;
+	-webkit-transition-property:right,top,-webkit-transform,opacity;
+}
+
+/******************************************************************************/
+/*	Blog																	  */
+/******************************************************************************/
+
+		div.single-post div.post-date,
+		ul.blog-post-list li div.post-date
+		{
+			float:right;
+		}
+		
+				div.single-post div.post-info div.post-info-bar ul.post-info-bar-category-list,
+				ul.blog-post-list li div.post-info div.post-info-bar ul.post-info-bar-category-list
+				{
+					float:right;
+					margin-left:10px;
+					margin-right:0px;
+				}
+				
+					div.single-post div.post-info div.post-info-bar ul.post-info-bar-category-list li,
+					ul.blog-post-list li div.post-info div.post-info-bar ul.post-info-bar-category-list li
+					{
+						float:right;
+					}
+				
+				.bypostauthor,
+				div.single-post div.post-info div.post-info-bar div.post-info-bar-author,
+				ul.blog-post-list li div.post-info div.post-info-bar div.post-info-bar-author
+				{
+					float:right;
+					margin-left:10px;
+					margin-right:0px;
+				}
+				
+				div.single-post div.post-info div.post-info-bar div.post-info-bar-comment-count,
+				ul.blog-post-list li div.post-info div.post-info-bar div.post-info-bar-comment-count
+				{
+					float:left;
+					padding-right:15px;
+					padding-left:0px;
+					background-position:right center;
+				}
+		
+		div.single-post div.post-tag,
+		div.single-post div.post-info,
+		div.single-post div.post-excerpt,
+		ul.blog-post-list li div.post-tag,
+		ul.blog-post-list li div.post-info,
+		ul.blog-post-list li div.post-excerpt,
+		ul.blog-post-list li a.post-read-more
+		{
+			margin-right:100px;
+			margin-left:0px;
+		}
+		
+		ul.blog-post-list li a.post-read-more
+		{
+			float:right;
+		}
+		
+		div.single-post div.post-tag li,
+		ul.blog-post-list li div.post-tag li
+		{
+			float:right;
+			margin-left:5px;	
+			margin-right:0px;	
+		}
+		
+/******************************************************************************/
+/*	Button go to to															  */
+/******************************************************************************/
+
+a.button-go-to-top
+{
+	background-position:100% 0px;
+}
+
+	a.button-go-to-top:hover
+	{
+		text-decoration:none;
+		background-position:100% -15px;
+	}
+
+/******************************************************************************/
+/*	Widget																	  */
+/******************************************************************************/
+
+div.footer div.widget
+{
+	margin-left:30px;
+	margin-right:0px;
+}
+
+	/**************************************************************************/
+	/*	Widget / Latest tweets												  */
+	/**************************************************************************/	
+	
+				div.latest-tweets ul li div
+				{
+					float:right;
+				}
+				
+				div.latest-tweets ul li p
+				{
+					margin:-3px 70px 0px 0px;
+					text-align: right;
+				}
+				
+	/**************************************************************************/
+	/*	Widget / Latest posts												  */
+	/*	Widget / Most viewed												  */
+	/*	Widget / Most commented												  */
+	/**************************************************************************/
+	
+				div.widget div.latest-post>ul>li div.date,
+				div.widget div.most-viewed>ul>li div.date,
+				div.widget div.most-commented>ul>li div.date
+				{
+					float:right;
+				}
+				
+						div.widget div.latest-post>ul>li .latest-post-category-list li
+						{
+							float:right;
+						}
+						
+						div.widget div.latest-post>ul>li h5,
+						div.widget div.latest-post>ul>li .latest-post-category-list,
+						div.widget div.most-viewed>ul>li h5,
+						div.widget div.most-viewed>ul>li div.count,
+						div.widget div.most-commented>ul>li h5,
+						div.widget div.most-commented>ul>li div.count
+						{
+							margin:0px;
+							margin-right:70px;
+						}
+						
+	/**************************************************************************/
+	/*	Widget / Archive list												  */
+	/**************************************************************************/	
+	
+		div.widget ul.archive-list li
+		{
+			float:right;
+			padding-left:0px;
+			padding-right:20px;
+			background-position:right center;
+			background-image:url('media/image/public/list_icon/icon_bullet_02_rtl.png');
+		}
+		
+	/**************************************************************************/
+	/*	Widget / Category list												  */
+	/**************************************************************************/
+		
+	div.widget ul.category-list ul
+	{
+		float:right;
+	}
+	
+		div.widget ul.category-list li
+		{
+			float:right;
+		}
+		
+			div.widget ul.category-list li>a,
+			div.widget ul.category-list li>a:hover
+			{
+				float:right;
+				margin-right:0px;
+				margin-left:5px;
+			}
+			
+	/**************************************************************************/
+	/*	Widget / Menu box		                                              */
+	/**************************************************************************/
+	
+	div.widget div.menu-box-widget-wrapper
+	{
+		position:relative;
+	}
+	
+		/**********************************************************************/
+		/*	Widget / Menu box / List										  */
+		/**********************************************************************/
+	
+				div.widget div.menu-box-widget-wrapper ul.menu-box-widget li a
+				{
+					padding:10px 30px 10px 0px;
+					border-width:0px 1px 0px 0px;
+				}
+
+				div.widget div.menu-box-widget-wrapper ul.menu-box-widget li a:hover
+				{
+					padding-left:0px;
+					padding-right:27px;
+					border-width:0px 4px 0px 0px;
+				}
+			
+				/**************************************************************/
+				/*	Widget / Menu box / Icon								  */
+				/**************************************************************/
+
+				div.widget div.menu-box-widget-wrapper ul.menu-box-widget li a span.menu-box-widget-icon
+				{
+					float:right;
+				}
+					
+				/**************************************************************/
+				/*	Widget / Menu box / Headers								  */
+				/**************************************************************/
+				
+				
+					div.widget div.menu-box-widget-wrapper ul.menu-box-widget li a span.menu-box-widget-header,
+					div.widget div.menu-box-widget-wrapper ul.menu-box-widget li a span.menu-box-widget-subheader
+					{
+						float:right;
+						margin-right:70px;
+						margin-left:0px;
+					}
+		
+	/**************************************************************************/
+	/*	Widget Menu															  */
+	/**************************************************************************/	
+
+				div.widget-menu ul li a
+				{
+					padding:15px 0px 15px 15px;
+				}
+
+					div.widget-menu ul li a span
+					{
+						display:block;
+					}
+
+					div.widget-menu ul li a span.widget-menu-link-arrow
+					{
+						float:right;
+						background-position:100% 0px;
+					}
+
+					div.page div.widget-menu ul li a span.widget-menu-link-arrow
+					{
+						background-image:url('media/image/public/menu_arrow_rtl.png');
+					}
+					
+					div.widget-menu ul li a span.widget-menu-link-caption
+					{
+						margin-right:20px;
+						margin-left:0px;
+					}
+
+				div.widget-menu ul li ul
+				{
+					margin-right:20px;
+					margin-left:0px;
+				}
+
+/******************************************************************************/
+/*	Pricing list				                                              */
+/******************************************************************************/
+
+	ul.pricing-list li
+	{
+		padding:10px 20px 10px 0px;
+		background-position:right center;
+		background-image:url('media/image/public/list_icon/icon_bullet_01_rtl.png');	
+	}
+	
+		ul.pricing-list li .pricing-list-name
+		{
+			float:right;
+		}
+		
+		ul.pricing-list li .pricing-list-price
+		{
+			float:left;
+			text-align:left;
+		}
+	
+/******************************************************************************/
+/*	InfoPanel					                                              */
+/******************************************************************************/
+
+	div.infopanel>h2,
+	div.infopanel>h4
+	{
+		float:right;
+	}
+
+	div.infopanel>div
+	{
+		float:left;
+	}
+	
+/******************************************************************************/
+/*	Notice box					                                              */
+/******************************************************************************/
+
+div.notice-box
+{
+	background-position:right center;
+}
+
+	div.notice-box>div
+	{
+		margin-left:0px;
+		margin-right:80px;
+		padding:10px 20px 10px 10px;
+	}
+	
+		div.notice-box>div>div
+		{
+			left:0px;
+			right:auto;
+		}
+
+			div.notice-box a
+			{
+				float:left;
+			}
+
+/******************************************************************************/
+/*	Respond																	  */
+/******************************************************************************/
+
+#respond
+{
+	margin:40px 100px 0px 0px;
+}
+
+	/**************************************************************************/
+	/*	Respond / Reply title												  */
+	/**************************************************************************/
+
+		#respond #reply-title>span
+		{
+			float:right;
+		}
+
+	#respond #cancel-comment-reply-link
+	{
+		float:right;
+		margin-right:10px;
+		margin-left:0px;
+	}
+
+/******************************************************************************/
+/*	Comments																  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Comments / Comments number	                                          */
+	/**************************************************************************/
+		
+	#comments #comments-number
+	{
+		float:right;		
+	}
+
+	/**************************************************************************/
+	/*	Comments / Comments list	                                          */
+	/**************************************************************************/
+	
+	#comments #comments_list
+	{
+		margin-right:100px;
+		margin-left:0px;
+	}
+	
+			#comments #comments_list>ul>li .comment-avatar
+			{
+				float:right;
+			}
+			
+			#comments #comments_list>ul>li ul.children,
+			#comments #comments_list>ul>li ul.children li,
+			#comments #comments_list>ul>li .comment-infobar,
+			#comments #comments_list>ul>li .comment-content
+			{
+				margin-right:90px;
+				margin-left:0px;
+			}
+			
+			#comments #comments_list>ul>li ul.children li ul.children,
+			#comments #comments_list>ul>li ul.children li ul.children li,
+			#comments #comments_list>ul>li .comment-infobar .comment-infobar,
+			#comments #comments_list>ul>li .comment-content .comment-content
+			{
+				margin-right:0px;
+			}
+			
+				#comments #comments_list>ul>li .comment-content .comment-reply
+				{
+					float:right;
+					padding-left:15px;
+					padding-right:0px;
+					background-position:left center;
+					background-image:url('media/image/public/list_icon/icon_bullet_01_rtl.png');
+				}
+				
+			#comments #comments_list>ul>li ul.children
+			{ 
+				margin:0px;
+				padding:0px;
+				margin-top:20px; 
+			}				
+
+/******************************************************************************/
+/*	Latest post					                                              */
+/******************************************************************************/
+
+		ul.latest-post li p,
+		ul.latest-post li h4,
+		ul.latest-post li .single-image
+		{
+			margin-right:120px;
+			margin-left:0px;
+		}
+		
+		ul.latest-post li .single-image
+		{
+			float:right;
+			margin:0px 0px 10px 20px;
+		}
+		
+/******************************************************************************/
+/*	Read more link				                                              */
+/******************************************************************************/
+
+a.more,
+a.read-more
+{
+	padding-left:15px;
+	padding-right:0px;
+	background-position:left center;
+	background-image:url('media/image/public/list_icon/icon_bullet_10_rtl.png');	
+}
+
+/******************************************************************************/
+/*	Dropcap																	  */
+/******************************************************************************/
+
+p.dropcap span
+{
+	float:right;
+	margin:2px 0px 3px 15px;
+}
+
+/******************************************************************************/
+/*	iFrame																	  */
+/******************************************************************************/
+
+div.iframe iframe
+{
+	right:0;
+	left:auto;
+}
+
+/******************************************************************************/
+/*	Button						                                              */
+/******************************************************************************/
+
+div.button
+{
+	margin:0px 0px 10px 10px;	
+}
+
+	/**************************************************************************/
+	/*	Button / Icon position	                                              */
+	/**************************************************************************/	
+	
+	div.button.button-icon.button-icon-position-left>a>span
+	{
+		padding-right:25px;
+		padding-left:0px;
+		background-position:right center;
+	}
+
+	div.button.button-icon.button-icon-position-right>a>span
+	{
+		padding-left:25px;
+		padding-right:0px;
+		background-position:left center;
+	}
+
+/******************************************************************************/
+/*  Recaptcha																  */
+/******************************************************************************/
+
+#recaptcha-source
+{
+	float:left;
+}
+
+	#recaptcha-source>div
+	{
+		right:-9px;
+		left:auto;
+	}
+
+.recaptcha-destination
+{
+	float:right;
+}
+
+/******************************************************************************/
+/*  WP classes																  */
+/******************************************************************************/
+
+.alignleft 
+{
+	float:right;
+	margin-left:10px !important;
+	margin-right:0px !important;
+}
+
+.alignright 
+{
+	float:left;
+	margin-right:10px !important;
+	margin-left:0px !important;
+}
+
+/******************************************************************************/
+/*	Menu																	  */
+/******************************************************************************/
+
+.menu-fixed
+{
+	right:0px;
+	left:auto;
+}
+
+select.dp-menu
+{	
+	background-position:10px center;
+}
+
+/******************************************************************************/
+/*	Menu top																  */
+/******************************************************************************/
+
+			ul.sf-menu>li ul li a span.sf-sub-indicator
+			{
+				float:left !important;
+				background-position:100% 0px !important;
+				background-image: url('media/image/public/drop_down_arrow_rtl.png');
+			} 
+			
+			ul.sf-menu>li:hover>ul li:hover ul,
+			ul.sf-menu>li.sfHover>ul li.sfHover ul
+			{
+				left:0;
+				right:190px;
+			}
+
+/******************************************************************************/
+/*  Accordion																  */
+/******************************************************************************/
+
+			.theme-accordion .ui-accordion-header a
+			{
+				padding:0px 0px 0px 15px;
+			}
+			
+	.theme-accordion .ui-accordion-content
+	{
+		overflow: hidden;
+	}
+	
+	.theme-accordion .ui-accordion-header.ui-state-active,
+	.theme-accordion .ui-accordion-header.ui-state-default
+	{
+		background-repeat:no-repeat;	
+		background-position:center left;		 
+	}
+	
+/******************************************************************************/
+/*  Tabs																	  */
+/******************************************************************************/
+
+		.theme-tab.ui-tabs>ul.ui-tabs-nav>li
+		{
+			float:right;
+			margin-left:3px;
+			margin-right:0px;
+		}
+		
+		.ui-tabs
+		{ 
+			direction: rtl !important; 
+		}
+		
+		.ui-tabs .ui-tabs-nav li.ui-tabs-selected,
+		.ui-tabs .ui-tabs-nav li.ui-state-default 
+		{
+			float:right !important; 
+		}
+		
+		.ui-tabs .ui-tabs-nav li a
+		{ 
+			float:right !important; 
+		}
+		
+		.theme-tab.ui-tabs>ul.ui-tabs-nav>li 
+		{ 
+			margin-right:0px !important;
+			margin-left:3px !important;
+		}
+
+ul.company-info li.icon-fax,
+ul.company-info li.icon-phone,
+.header-phone .header-phone-second-line
+{
+	direction:ltr;
+}
+
+/******************************************************************************/
+/*  Responsive mode 0-989px 																	  */
+/******************************************************************************/
+
+@media only screen and (min-width:0px) and (max-width:989px)
+{
+
+/******************************************************************************/
+/*	Blog																	  */
+/******************************************************************************/
+
+		div.single-post div.post-tag,
+		div.single-post div.post-excerpt,
+		ul.blog-post-list li div.post-tag,
+		ul.blog-post-list li div.post-excerpt,
+		ul.blog-post-list li a.post-read-more
+		{
+			margin-right:0px;
+		}
+		
+				div.single-post div.post-info div.post-info-bar div.post-info-bar-comment-count,
+				ul.blog-post-list li div.post-info div.post-info-bar div.post-info-bar-comment-count
+				{
+					float:right;
+				}
+				
+/******************************************************************************/
+/*	Respond																	  */
+/******************************************************************************/
+
+.page-sidebar-enable #respond
+{
+	margin-right:0px;
+}
+
+/******************************************************************************/
+/*	Comments																  */
+/******************************************************************************/
+	
+	/**************************************************************************/
+	/*	Comments / Comments list	                                          */
+	/**************************************************************************/
+	
+	.page-sidebar-enable #comments #comments_list
+	{
+		margin-right:0px;
+	}
+}
+	
+/******************************************************************************/
+/*  Responsive mode 0-767px  												  */
+/******************************************************************************/
+
+@media only screen and (min-width:0px) and (max-width:767px)
+{
+  
+    /**************************************************************************/
+    /*	Respond															      */
+    /**************************************************************************/
+
+    #respond
+    {
+	    margin-right:0px;
+    }
+
+    /**************************************************************************/
+    /*	Comments														      */
+    /**************************************************************************/
+
+	    /**********************************************************************/
+	    /*	Comments / Comments list	                                      */
+	    /**********************************************************************/
+
+	    #comments #comments_list
+	    {
+		    margin-right:0px;
+	    }
+
+    /**************************************************************************/
+    /*	Widget															      */
+    /**************************************************************************/
+
+    div.footer div.widget
+    {
+	    margin-left:0px;
+    }
+}
+
+/******************************************************************************/
+/*  Responsive mode 0-479px 												  */
+/******************************************************************************/
+
+@media only screen and (max-width:479px)
+{
+
+    /**************************************************************************/
+    /*	Header																  */
+    /**************************************************************************/
+
+	    div.header div.header-logo
+	    {
+		    padding-left:0px;
+		    float: none;
+	    }
+
+    /**************************************************************************/
+    /*	Comments														      */
+    /**************************************************************************/
+
+	    /**********************************************************************/
+	    /*	Comments / Comments list	                                      */
+	    /**********************************************************************/
+
+			    #comments #comments_list>ul>li .comment-avatar
+			    {
+				    display:none;
+			    }
+
+			    #comments #comments_list>ul>li ul.children,
+			    #comments #comments_list>ul>li ul.children li,
+			    #comments #comments_list>ul>li .comment-infobar,
+			    #comments #comments_list>ul>li .comment-content
+			    {
+				    margin-right:0px;
+			    }
+
+    /**************************************************************************/
+    /*	Widget																  */
+    /**************************************************************************/
+ 
+    div.footer div.widget
+    {
+	    margin-left:0px;
+    }
+}
+
+/******************************************************************************/
+/*  Responsive mode 768-989px												  */
+/******************************************************************************/
+
+@media only screen and (min-width:768px) and (max-width:989px)
+{
+
+    /**************************************************************************/
+    /*	Blog																  */
+    /**************************************************************************/
+
+		    div.single-post div.post-tag,
+		    div.single-post div.post-excerpt,
+		    ul.blog-post-list li div.post-tag,
+		    ul.blog-post-list li div.post-excerpt,
+		    ul.blog-post-list li a.post-read-more
+		    {
+			    margin-right:0px;
+		    }
+
+				    div.single-post div.post-info div.post-info-bar div.post-info-bar-comment-count,
+				    ul.blog-post-list li div.post-info div.post-info-bar div.post-info-bar-comment-count
+				    {
+					    float:right;
+				    } 
+}
+
+/******************************************************************************/
+/*  Responsive mode 480-767px 												  */
+/******************************************************************************/
+
+@media only screen and (min-width:480px) and (max-width:767px)
+{	
+
+    /**************************************************************************/
+    /*	Header																  */
+    /**************************************************************************/
+
+	    div.header div.header-logo
+	    {
+			float:none;
+		    padding-left:0px;
+	    }
+	    
+	    div.header div.header-cite,  div.header div.header-phone
+	    {
+		    margin:0px;
+		    padding:0px; 
+	    }  
+}

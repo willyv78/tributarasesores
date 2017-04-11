@@ -1,0 +1,2 @@
+[06-Aug-2014 19:51:56 UTC] PHP Fatal error:  Cannot redeclare class phpmailerException in /home/tributa1/public_html/tributarasesores/wp-includes/class-phpmailer.php on line 3265
+[18-Oct-2014 01:58:37 UTC] PHP Fatal error:  Cannot use object of type WP_Error as array in /home/tributa1/public_html/tributarasesores/wp-content/plugins/youtube-channel-gallery/youtube-channel-gallery.php on line 556

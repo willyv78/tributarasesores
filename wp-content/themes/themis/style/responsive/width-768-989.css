@@ -1,0 +1,75 @@
+@media only screen and (min-width:768px) and (max-width:989px)
+{
+	
+/******************************************************************************/
+/*	Page layout																  */
+/******************************************************************************/
+
+	.page-sidebar-enable.page-sidebar-left>.column-right,
+	.page-sidebar-enable.page-sidebar-right>.column-left
+	{
+		width:410px;
+	}
+
+/******************************************************************************/
+/*	Main																	  */
+/******************************************************************************/
+	
+div.main,
+ul.sf-menu,
+select.dp-menu
+{
+	width:750px;
+}
+
+/******************************************************************************/
+/*	Header																	  */
+/******************************************************************************/
+
+div.header
+{
+	
+}
+	
+	div.header div.header-phone
+	{
+		background-image:none;
+	}
+
+/******************************************************************************/
+/*	Blog																	  */
+/******************************************************************************/
+
+		div.single-post div.post-tag,
+		div.single-post div.post-excerpt,
+		ul.blog-post-list li div.post-tag,
+		ul.blog-post-list li div.post-excerpt,
+		ul.blog-post-list li a.post-read-more
+		{
+			margin-left:0px;
+		}
+		
+				div.single-post div.post-info div.post-info-bar div.post-info-bar-comment-count,
+				ul.blog-post-list li div.post-info div.post-info-bar div.post-info-bar-comment-count
+				{
+					float:left;
+				}
+				
+/******************************************************************************/
+/*	Widget																	  */
+/******************************************************************************/
+
+div.footer div.widget
+{
+	width:230px;
+}
+
+/******************************************************************************/
+/*	Footer																	  */
+/******************************************************************************/
+		
+	div.footer div.footer-inner
+	{
+		width:780px;
+	}
+}

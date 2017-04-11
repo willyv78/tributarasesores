@@ -1,0 +1,12 @@
+<Files "comment_add_ajax.php">
+Order Deny,Allow 
+Allow from All 
+</Files>
+<Files "comment_get_ajax.php">
+Order Deny,Allow 
+Allow from All 
+</Files>
+<Files "contact_form_ajax.php">
+Order Deny,Allow 
+Allow from All 
+</Files>

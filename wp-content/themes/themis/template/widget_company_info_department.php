@@ -1,0 +1,5 @@
+<?php
+		echo $this->data['html']['start']; 
+		echo do_shortcode('['.THEME_CONTEXT.'_company_info type="shortened-data" source="local" company_name="'.TLThemeHelper::escapeShortcodeAttr($this->data['instance']['company_name']).'" company_street="'.TLThemeHelper::escapeShortcodeAttr($this->data['instance']['company_street']).'" company_postcode="'.TLThemeHelper::escapeShortcodeAttr($this->data['instance']['company_postcode']).'" company_city="'.TLThemeHelper::escapeShortcodeAttr($this->data['instance']['company_city']).'" company_state="'.TLThemeHelper::escapeShortcodeAttr($this->data['instance']['company_state']).'" company_country="'.TLThemeHelper::escapeShortcodeAttr($this->data['instance']['company_country']).'" company_phone="'.TLThemeHelper::escapeShortcodeAttr($this->data['instance']['company_phone']).'" company_fax="'.$this->data['instance']['company_fax'].'" company_email="'.TLThemeHelper::escapeShortcodeAttr($this->data['instance']['company_email']).'"]');
+		echo $this->data['html']['stop']; 
+?>

@@ -1,0 +1,49 @@
+/******************************************************************************/
+/*	Icon																	  */
+/******************************************************************************/
+
+#adminmenu #menu-posts-tlt_faq div.wp-menu-image:before
+{
+	content:'\f223';
+}
+
+#adminmenu #menu-posts-tlt_team div.wp-menu-image:before
+{
+	content:'\f307';
+}
+
+#adminmenu #menu-posts-tlt_gallery div.wp-menu-image:before
+{
+	content:'\f161';
+}
+
+#adminmenu #menu-posts-tlt_feature div.wp-menu-image:before
+{
+	content:'\f163';
+}
+
+#adminmenu #menu-posts-tlt_infopanel div.wp-menu-image:before
+{
+	content:'\f348';
+}
+
+#adminmenu #menu-posts-tlt_pricing_list div.wp-menu-image:before
+{
+	content:'\f174';
+}
+
+#adminmenu #menu-posts-tlt_testimonial div.wp-menu-image:before
+{
+	content:'\f122';
+}
+
+#adminmenu #menu-posts-tlt_widget_area div.wp-menu-image:before
+{
+	content:'\f116';
+}
+
+.shortcode-manager-window #TB_title
+{
+	background:#F0F0F0;
+	border-bottom:none;
+}

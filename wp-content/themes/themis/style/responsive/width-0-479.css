@@ -1,0 +1,100 @@
+@media only screen and (max-width:479px)
+{
+	
+/******************************************************************************/
+/*	Main																	  */
+/******************************************************************************/
+	
+div.main,
+ul.sf-menu,
+select.dp-menu
+{
+	width:300px;
+}
+
+/******************************************************************************/
+/*	Header																	  */
+/******************************************************************************/
+
+div.header
+{
+	padding-bottom:25px;
+}
+
+	div.header div.header-logo
+	{
+		float:none;
+		padding-right:0px;
+	}
+
+		div.header div.header-logo a
+		{
+			margin-left:auto;
+			margin-right:auto;
+			text-align:center;
+		}
+		
+	div.header div.header-cite,
+	div.header div.header-phone
+	{
+		display:none;
+	}
+	
+/******************************************************************************/
+/*	Blog																	  */
+/******************************************************************************/
+
+		div.single-post div.post-date,
+		ul.blog-post-list li div.post-date
+		{
+			width:100%;
+			margin-bottom:20px;
+		}
+		
+		div.single-post div.post-tag,
+		div.single-post div.post-info,
+		div.single-post div.post-excerpt,
+		ul.blog-post-list li.type-post div.post-tag,
+		ul.blog-post-list li.type-post div.post-info,
+		ul.blog-post-list li.type-post div.post-excerpt,
+		ul.blog-post-list li.type-post a.post-read-more
+		{
+			margin-left:0px;
+		}
+
+/******************************************************************************/
+/*	Comments																  */
+/******************************************************************************/
+
+	/**************************************************************************/
+	/*	Comments / Comments list	                                          */
+	/**************************************************************************/
+
+			#comments #comments_list>ul>li .comment-avatar
+			{
+				display:none;
+			}
+			
+			#comments #comments_list>ul>li ul.children,
+			#comments #comments_list>ul>li ul.children li,
+			#comments #comments_list>ul>li .comment-infobar,
+			#comments #comments_list>ul>li .comment-content
+			{
+				margin-left:0px;
+			}
+			
+/******************************************************************************/
+/*	Widget																	  */
+/******************************************************************************/
+
+div.widget
+{
+	width:300px;
+}
+
+div.footer div.widget
+{
+	margin-right:0px;
+}
+			
+}

@@ -1,0 +1,83 @@
+@media only screen and (min-width:0px) and (max-width:767px)
+{
+	
+/******************************************************************************/
+/*	Page layout																  */
+/******************************************************************************/
+
+.page-sidebar-enable
+{
+	
+}
+	
+	.page-sidebar-enable>.column-left,
+	.page-sidebar-enable>.column-right
+	{
+		float:none;
+		clear:both;
+	}
+
+	.page-sidebar-enable.page-sidebar-left>.column-right,
+	.page-sidebar-enable.page-sidebar-right>.column-left,
+	.page-sidebar-enable.page-sidebar-left>.column-left,
+	.page-sidebar-enable.page-sidebar-right>.column-right
+	{
+		width:100%;
+	}	
+	
+	.page-sidebar-enable.page-sidebar-right>.column-right,
+	.page-sidebar-enable.page-sidebar-left>.column-right
+	{
+		margin-top:50px;
+	}
+	
+/******************************************************************************/
+/*	Footer																	  */
+/******************************************************************************/
+		
+	div.footer div.footer-inner
+	{
+		width:100%;
+	}	
+	
+/******************************************************************************/
+/*	Respond																	  */
+/******************************************************************************/
+
+#respond
+{
+	margin-left:0px;
+}
+
+/******************************************************************************/
+/*	Comments																  */
+/******************************************************************************/
+	
+	/**************************************************************************/
+	/*	Comments / Comments number	                                          */
+	/**************************************************************************/
+			
+	#comments #comments-number
+	{
+		display:none;
+	}
+	
+	/**************************************************************************/
+	/*	Comments / Comments list	                                          */
+	/**************************************************************************/
+	
+	#comments #comments_list
+	{
+		margin-left:0px;
+	}
+	
+/******************************************************************************/
+/*	Widget																	  */
+/******************************************************************************/
+
+div.footer div.widget
+{
+	margin-right:0px;
+}
+	
+}
